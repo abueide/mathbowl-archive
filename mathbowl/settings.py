@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mathbowl.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'mathbowl/templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'mathbowl/../templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
